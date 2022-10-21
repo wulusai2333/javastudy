@@ -22,6 +22,22 @@ git add .
 git commit -m 'first commit'
 #将更改推送带远程仓库
 git push
+<<<<<<< HEAD
+=======
+
+#项目重建后与远程分支关联
+git clone https://github.com/wulusai2333/javastudy.git
+#创建本地dev分支与远程dev分支对应
+git checkout -b origin/dev
+git checkout master
+#将dev分支代码合并到master
+git merge dev
+git push origin master
+
+#查看所有分支
+git branch -a
+git push origin --delete 
+>>>>>>> master
 ```
 
 

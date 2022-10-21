@@ -52,8 +52,8 @@ class JavastudyApplicationTests {
 //        HashMap<Integer, String> map = new HashMap<>();
 //        map.forEach((k,v)->{});
         //枚举
-        net.wulusai.constant.SeasumEnum se = net.wulusai.constant.SeasumEnum.STRING;
-        System.out.println(se);
-        System.out.println(se.getSeq());
+//        net.wulusai.constant.SeasumEnum se = net.wulusai.constant.SeasumEnum.STRING;
+//        System.out.println(se);
+//        System.out.println(se.getSeq());
     }
 }
